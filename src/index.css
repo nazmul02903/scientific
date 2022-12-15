@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: hsl(202, 96%, 37%) !important;
+  font-size: 30px !important;
+}
+@layer components{
+  .default-container{
+   @apply max-w-[1060px] mx-auto
+  }
+
+}
